@@ -14,7 +14,7 @@ Install the command bus library via [Composer](https://getcomposer.org):
 $ composer require ashleydawson/command-bus
 ```
 
-Basic usage
+Basic Usage
 -----------
 
 To use the command bus, start by adding a command:
