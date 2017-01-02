@@ -1,6 +1,8 @@
 Command Bus
 ===========
 
+[![Build Status](https://travis-ci.org/AshleyDawson/CommandBus.svg?branch=master)](https://travis-ci.org/AshleyDawson/CommandBus)
+
 Super-simple command bus implementation that allows return types. Each command has a **single**, designated handler.
 
 Installation
