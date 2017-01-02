@@ -5,6 +5,8 @@ Command Bus
 
 Super-simple command bus implementation that allows return types. Each command has a **single**, designated handler.
 
+**Note:** Depending on your architecture - it might not be appropriate for commands to return a response. Typically, in [CQS](https://en.wikipedia.org/wiki/Command%E2%80%93query_separation) architecture, state change is observed/measured via events or queries.
+
 Installation
 ------------
 
