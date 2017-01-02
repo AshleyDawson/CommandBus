@@ -1,0 +1,33 @@
+{
+  "name": "ashleydawson/command-bus",
+  "type": "library",
+  "description": "Command bus and executable commands with a return/response",
+  "license": "MIT",
+  "keywords": [
+    "command",
+    "bus",
+    "ddd",
+    "domain",
+    "return",
+    "state",
+    "response"
+  ],
+  "authors": [
+    {
+      "name": "Ashley Dawson",
+      "email": "ashley@ashleydawson.co.uk"
+    }
+  ],
+  "require": {
+    "php": ">=5.5"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^4.0"
+  },
+  "autoload": {
+    "psr-4": { "AshleyDawson\\CommandBus\\": "lib" }
+  },
+  "config": {
+    "bin-dir": "bin"
+  }
+}
